@@ -1,0 +1,36 @@
+main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+div{
+    margin: 10px;
+    height: 150px;
+    width: 150px;
+    border: 2px solid lightblue;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-family: cursive;
+}
+#red{
+    background-color: red;
+}
+#yellow{
+    background-color: yellow;
+}
+#green{
+    background-color: green;
+}
+#clear-all{
+    padding: 20px 5px;
+    border: none;
+    font-family: cursive;
+    cursor: pointer;
+    background-color: blue;
+    color: wheat;
+    font-size: large;
+    border-radius: 10px;
+}
